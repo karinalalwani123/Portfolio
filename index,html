@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karina Lalwani | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="hero-section">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-name">Hi, I'm <span class="highlight">Karina Lalwani</span></h1>
+      <p class="hero-tagline">Creative CSE Graduate & Future Software Engineer 👩‍💻</p>
+      <a href="#contact" class="cta-button">Get in Touch</a>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- ABOUT SECTION -->
+<!-- ABOUT SECTION -->
+<section id="about" class="section section-light">
+  <h2>About Me</h2>
+  <div class="about-card">
+    <img src="C:\Users\hp\Downloads\061fb8a1-96e4-435f-afee-3bb9ae7a2bf1.jpg" alt="Karina Profile" class="about-image" />
+    <div class="about-text">
+      <p>
+        I'm <strong>Karina Lalwani</strong>, a passionate and detail-oriented Computer Science graduate from Jhulelal Institute of Technology, Nagpur.
+        I specialize in Python, Java, Web Development, and enjoy creating real-world tech solutions that improve people's lives.
+      </p>
+      <p>
+        With a strong academic record, multiple internships, and project experience, I thrive in dynamic environments and love
+        working on meaningful, user-focused products. I aim to grow into a software engineer who builds impactful tools.
+      </p>
+    </div>
+  </div>
+</section>
+
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="section section-dark">
+  <h2>Technical Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">Python</div>
+    <div class="skill-card">Java</div>
+    <div class="skill-card">HTML/CSS</div>
+    <div class="skill-card">Flask</div>
+    <div class="skill-card">MySQL</div>
+    <div class="skill-card">React.js</div>
+    <div class="skill-card">MongoDB</div>
+    <div class="skill-card">DSA</div>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section section-light">
+  <h2>Projects</h2>
+  <div class="projects-container">
+    <div class="project-card">
+      <h3>FLEXEARN</h3>
+      <p>Developed a platform connecting job seekers to labor opportunities using PHP, React.js, and MySQL. Integrated secure login and RESTful APIs.</p>
+    </div>
+    <div class="project-card">
+      <h3>ChatLearn</h3>
+      <p>Built an AI-powered chatbot with NLP and Python for interactive speech-based learning. Achieved 95% accuracy in real-time responses.</p>
+    </div>
+    <div class="project-card">
+      <h3>Student Management System</h3>
+      <p>Python-based admin system for managing student records and automating daily operations in educational institutes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE SECTION -->
+<section id="experience" class="section section-dark">
+  <h2>Internship Experience</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h4>Webakruti Pvt Ltd</h4>
+      <p>Created APIs using Flask and improved system performance by 15%.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>Arcane Path Pvt Ltd</h4>
+      <p>Implemented Python scripts that automated tasks and reduced manual efforts by 25%.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>Codsoft</h4>
+      <p>Worked on Java-based application logic and backend modules.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>CPMCD Tech Platform</h4>
+      <p>Learned industry-level workflows and gained hands-on experience in team-based software projects.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS SECTION -->
+<section id="certifications" class="section section-light">
+  <h2>Certifications</h2>
+  <div class="cert-grid">
+    <div class="cert-card">AWS Cloud Practitioner</div>
+    <div class="cert-card">Cisco Data Science</div>
+    <div class="cert-card">Python 101 - IBM</div>
+    <div class="cert-card">Java Full Stack - Symbiosis</div>
+    <div class="cert-card">Digital AI Skills - Accenture</div>
+    <div class="cert-card">Generative AI - AWS</div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="section section-dark">
+  <h2>Contact Me</h2>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <h3>Email</h3>
+      <p><a href="mailto:kareenalalwani123@gmail.com">kareenalalwani123@gmail.com</a></p>
+    </div>
+    <div class="contact-card">
+      <h3>LinkedIn</h3>
+      <p><a href="https://www.linkedin.com/in/karina-lalwani-803b11271" target="_blank">karina-lalwani</a></p>
+    </div>
+    <div class="contact-card">
+      <h3>Phone</h3>
+      <p>9309564437</p>
+    </div>
+  </div>
+</section>
+
