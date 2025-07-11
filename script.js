@@ -1,17 +1,17 @@
-// Typing animation for "Karina Lalwani"
+// Optional: Typing effect on header name
 document.addEventListener("DOMContentLoaded", () => {
-  const nameSpan = document.querySelector(".hero h1 span");
-  const text = "Karina Lalwani";
+  const header = document.querySelector("header h1");
+  const name = "Karina Lalwani";
   let i = 0;
+  header.textContent = "";
 
-  function typeWriter() {
-    if (i < text.length) {
-      nameSpan.textContent += text.charAt(i);
+  function type() {
+    if (i < name.length) {
+      header.textContent += name.charAt(i);
       i++;
-      setTimeout(typeWriter, 120);
+      setTimeout(type, 100);
     }
   }
 
-  nameSpan.textContent = ""; // Clear initial text
-  typeWriter();
+  type();
 });
