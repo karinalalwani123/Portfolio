@@ -44,13 +44,24 @@ h1, h2, h3 {
   color: white;
 }
 
-/* Responsive Hamburger */
+/* Desktop Navigation */
+@media (min-width: 769px) {
+  #nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+  }
+}
+
+/* Mobile Navigation */
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
   }
-  ...
-}
+
   #nav-links {
     display: none;
     flex-direction: column;
@@ -70,16 +81,6 @@ h1, h2, h3 {
   #nav-links li {
     margin: 10px 0;
   }
-}
-
-
-.main-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 30px;
 }
 
 .main-nav a {
@@ -148,12 +149,11 @@ h1, h2, h3 {
 
 /* About Section */
 .about-section {
-  padding: 40px 20px; /* Reduced padding */
+  padding: 40px 20px;
   background: #f9fafa;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: auto; /* Remove full height so it's dynamic like other pages */
 }
 
 .about-container {
@@ -166,7 +166,6 @@ h1, h2, h3 {
   justify-content: space-between;
   animation: fadeSlideUp 1s ease-out both;
 }
-
 
 .about-image {
   flex: 1;
@@ -188,7 +187,6 @@ h1, h2, h3 {
   transform: scale(1.08);
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
 }
-
 
 .about-text p {
   opacity: 0;
@@ -215,7 +213,7 @@ h1, h2, h3 {
   }
 }
 
-/* Mobile Fix */
+/* Mobile Fixes */
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
@@ -236,7 +234,7 @@ h1, h2, h3 {
   }
 }
 
-/* Generic Container & Card (Used in Skills, Experience, Contact) */
+/* Generic Container & Card */
 .container {
   max-width: 1000px;
   margin: auto;
@@ -271,7 +269,7 @@ h1, h2, h3 {
   text-decoration: underline;
 }
 
-/* Skills Section (if used as grid) */
+/* Skills Section */
 .skills-section {
   padding: 60px 20px;
   background: #fff;
@@ -333,54 +331,18 @@ h1, h2, h3 {
   max-width: 400px;
 }
 
-/* Header */
+/* Header & Footer */
 header {
   background-color: #1C1C2E;
   color: white;
-  padding: 20px 0;
   text-align: center;
+  padding: 20px 0;
 }
 
-/* Footer */
 footer {
   background-color: #1C1C2E;
   color: white;
   text-align: center;
   padding: 15px;
   margin-top: 40px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .hero-text-only h1 {
-    font-size: 2.4rem;
-  }
-
-  .subtitle {
-    font-size: 1.1rem;
-  }
-
-  .cta-button {
-    font-size: 0.95rem;
-    padding: 12px 28px;
-  }
-
-  .about-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-image img {
-    width: 150px;
-    height: 150px;
-  }
-
-  .about-text h2 {
-    font-size: 2rem;
-  }
-
-  .main-nav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
 }
