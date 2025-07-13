@@ -37,7 +37,7 @@ h1, h2, h3 {
   color: white;
 }
 
-.hamburger {
+.menu-toggle {
   display: none;
   font-size: 28px;
   cursor: pointer;
@@ -46,10 +46,11 @@ h1, h2, h3 {
 
 /* Responsive Hamburger */
 @media (max-width: 768px) {
-  .hamburger {
+  .menu-toggle {
     display: block;
   }
-
+  ...
+}
   #nav-links {
     display: none;
     flex-direction: column;
