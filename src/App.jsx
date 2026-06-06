@@ -46,13 +46,13 @@ const projects = [
     title: "Zentra AI", tag: "LangGraph + LLM", tagColor: "#7C3AED",
     desc: "Production-ready AI email automation platform using LangGraph StateGraph with 14 workflow modules, Groq LLaMA 3.3 70B, and Tavily search. Secure multi-user Gmail OAuth2 integration with AI-powered classification, auto-replies, scheduling, and chat interface.",
     stack: ["LangGraph", "LLaMA 3.3 70B", "Groq", "FastAPI", "React", "Firebase", "Tailwind", "OAuth2"],
-    emoji: "⚡", metrics: [{ label: "Workflow Modules", val: "14" }, { label: "Hosting", val: "24/7" }], link: null,
+    emoji: "⚡", metrics: [{ label: "Workflow Modules", val: "14" }, { label: "Hosting", val: "24/7" }], link: true,
   },
   {
     title: "Calorie Bot", tag: "NLP / Health AI", tagColor: "#059669",
     desc: "Conversational calorie tracking bot built with Python and Streamlit. Users describe meals in natural language and the bot estimates nutritional values, tracks daily intake, and provides health insights in real time.",
     stack: ["Python", "Streamlit", "NLP"],
-    emoji: "🥗", metrics: [{ label: "Interface", val: "Chat" }, { label: "Input", val: "Natural Language" }], link: null,
+    emoji: "🥗", metrics: [{ label: "Interface", val: "Chat" }, { label: "Input", val: "Natural Language" }], link: true,
   },
   {
     title: "ChatLearn", tag: "NLP / AI", tagColor: "#38BDF8",
